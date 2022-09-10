@@ -1,0 +1,342 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div, .redblue{
+	border: 1px solid black;
+}
+body{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.row3,
+.row1,
+.home,
+.redblue, 
+.bluegreen, 
+.yellowgreen,
+.redyellow,
+.row2{
+	border: none;
+}
+
+/* Syle for first row*/
+.container{
+	height: 500px;
+	width: 500px;
+	background-color: grey;
+}
+
+.container .row1{
+	display: flex;
+	flex-direction: row;
+}
+.container .row1 .red, .redenter{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+}
+.row1 .red .red1,
+.row1 .red .red2, 
+.row1 .red .red3, 
+.row1 .red .red4{
+	height: 50px;
+	width: 50px;
+}
+.redrow{
+	border: none;
+	display: flex;
+	flex-direction: row;
+}
+.redrow div{
+	margin: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 10px;
+}
+.container .row1 .blue, .blueenter{
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+}
+.container .row1 .redblue{
+	height: 200px;
+	width: 100px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+
+
+
+
+.redblue .col1,
+.redblue .col2,
+.redblue .col3{
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+.redblue .col1 div,
+.redblue .col2 div,
+.redblue .col3 div{
+	height: 33.33px;
+	width: 33.33px;
+}
+
+
+
+
+
+.row1 .blue .blue1,
+.row1 .blue .blue2,
+.row1 .blue .blue3,
+.row1 .blue .blue4{
+	height: 50px;
+	width: 50px;
+}
+.bluerow{
+	border: none;
+	display: flex;
+	flex-direction: row;
+}
+.bluerow div{
+	margin: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for row2*/
+.container .row2{
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.container .row2 .redyellow{
+	background-color: white;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+.redyellow .col1,
+.redyellow .col2, 
+.redyellow .col3{
+	display: flex;
+	flex-direction: row;
+	border: none;
+}
+.redyellow .col1 div,
+.redyellow .col2 div,
+.redyellow .col3 div{
+	height: 33.33px;
+	width: 33.33px;
+}
+
+
+
+
+
+
+.container .row2 .home{
+	background-color: white;
+	width: 100px;	
+}
+
+.container .row2 .home .homecolor{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+}
+.homegreen, .homeyellow, .homered, .homeblue{
+	transform: rotate(45deg);
+}
+.homegreen{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 70px;
+	background-color: green;
+}
+.homeyellow{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 70px;
+	background-color: yellow;
+}
+.homered{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	right: 70px;
+	background-color: red;
+}
+.homeblue{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: -71px;
+	background-color: blue;
+}
+
+
+
+
+
+
+.container .row2 .bluegreen{
+	background-color: white;
+	width: 200px;
+}
+.bluegreen .col1,
+.bluegreen .col2, 
+.bluegreen .col3{
+	display: flex;
+	flex-direction: row;
+	border: none;
+}
+.bluegreen .col1 div,
+.bluegreen .col2 div,
+.bluegreen .col3 div{
+	height: 33.33px;
+	width: 33.33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for row3 */
+.container .row3{
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+}
+.container .row3 .yellow, .yellowenter{
+	width: 200px;
+	background-color: yellow;
+}
+.row3 .yellow .yellow1,
+.row3 .yellow .yellow2,
+.row3 .yellow .yellow3,
+.row3 .yellow .yellow4{
+	height: 50px;
+	width: 50px;
+}
+.yellowrow{
+	border: none;
+	display: flex;
+	flex-direction: row;
+}
+.yellowrow div{
+	margin: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 10px;
+}
+
+
+
+
+
+
+.container .row3 .yellowgreen{
+	width: 100px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+.yellowgreen .col1,
+.yellowgreen .col2,
+.yellowgreen .col3{
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+.yellowgreen .col1 div,
+.yellowgreen .col2 div,
+.yellowgreen .col3 div{
+	height: 33.33px;
+	width: 33.33px;
+}
+
+
+
+
+
+.container .row3 .green, .greenenter{
+	width: 200px;
+	background-color: green;
+}
+.row3 .green .green1,
+.row3 .green .green2,
+.row3 .green .green3,
+.row3 .green .green4{
+	height: 50px;
+	width: 50px;
+}
+.greenrow{
+	border: none;
+	display: flex;
+	flex-direction: row;
+}
+.greenrow div{
+	margin: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 10px;
+}
